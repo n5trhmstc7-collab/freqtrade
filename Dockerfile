@@ -51,4 +51,4 @@ RUN cat << 'EOF' > /freqtrade/config.json
 }
 EOF
 
-CMD ["python3", "-m", "freqtrade", "trade", "--config", "/freqtrade/config.json", "--strategy", "SampleStrategy", "-v"]
+ENTRYPOINT ["python3", "-m", "freqtrade", "trade", "--config", "/freqtrade/config.json", "--strategy", "SampleStrategy", "-v"]
