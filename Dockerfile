@@ -51,4 +51,4 @@ RUN cat << 'EOF' > /freqtrade/config.json
 }
 EOF
 
-ENTRYPOINT ["freqtrade", "trade", "--config", "/freqtrade/config.json", "--strategy", "SampleStrategy"]
+ENTRYPOINT ["freqtrade", "trade", "--config", "/freqtrade/config.json", "--strategy", "SampleStrategy", "-v"]
