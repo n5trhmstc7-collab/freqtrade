@@ -3,7 +3,7 @@ USER root
 
 ENV PYTHONUNBUFFERED=1
 
-RUN pip install --no-cache-dir rapidjson
+RUN pip install --no-cache-dir python-rapidjson
 
 RUN cat << 'EOF' > /freqtrade/config.json
 {
