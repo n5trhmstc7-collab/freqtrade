@@ -7,7 +7,7 @@ cat << 'EOF' > config.json
     "tradable_balance_ratio": 0.99,
     "fiat_display_currency": "USD",
     "timeframe": "5m",
-    "dry_run": false,
+    "dry_run": true,
     "dry_run_wallet": 1000,
     "cancel_open_orders_on_exit": false,
     "trading_mode": "spot",
