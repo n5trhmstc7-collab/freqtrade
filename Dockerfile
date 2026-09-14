@@ -3,8 +3,6 @@ USER root
 
 ENV PYTHONUNBUFFERED=1
 
-RUN pip install --no-cache-dir python-rapidjson
-
 RUN cat << 'EOF' > /freqtrade/config.json
 {
     "max_open_trades": 3,
