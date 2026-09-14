@@ -31,8 +31,8 @@ cat << 'EOF' > config.json
     },
     "telegram": {
         "enabled": true,
-        "token": "",
-        "chat_id": ""
+        "token": "8934922057:AAFxBY0JiW0vzNIYlQydwmMqsxuN3SyWar8",
+        "chat_id": "6724754936"
     },
     "api_server": {
         "enabled": false,
@@ -48,4 +48,3 @@ cat << 'EOF' > config.json
 EOF
 
 freqtrade trade --config config.json --strategy SampleStrategy
-
