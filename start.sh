@@ -47,4 +47,4 @@ cat << 'EOF' > config.json
 }
 EOF
 
-freqtrade trade --config config.json --strategy SampleStrategy
+python3 -m freqtrade trade --config config.json --strategy SampleStrategy
