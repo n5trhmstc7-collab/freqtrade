@@ -1,6 +1,8 @@
 FROM freqtradeorg/freqtrade:stable
 USER root
 
+ENV PYTHONUNBUFFERED=1
+
 RUN cat << 'EOF' > /freqtrade/config.json
 {
     "max_open_trades": 3,
