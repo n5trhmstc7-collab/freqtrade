@@ -49,5 +49,4 @@ RUN cat << 'EOF' > /freqtrade/config.json
 }
 EOF
 
-USER ftuser
 ENTRYPOINT ["freqtrade", "trade", "--config", "/freqtrade/config.json", "--strategy", "SampleStrategy"]
